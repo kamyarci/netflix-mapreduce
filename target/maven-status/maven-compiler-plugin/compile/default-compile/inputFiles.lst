@@ -1,0 +1,14 @@
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/NetflixDescriptionLength.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/NetflixTopBottom.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/NetflixWordCount.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/TestNormalization.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/mapper/DescriptionLengthMapper.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/mapper/TopBottomMapper.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/mapper/WordCountMapper.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/preprocessing/CsvNormalizer.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/reducer/DescriptionLengthReducer.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/reducer/TopBottomReducer.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/reducer/WordCountReducer.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/util/StopWords.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/util/TextNormalizer.java
+/home/kamylaarci/netflix-mapreduce/src/main/java/br/com/kamyla/netflix/util/TextProcessor.java

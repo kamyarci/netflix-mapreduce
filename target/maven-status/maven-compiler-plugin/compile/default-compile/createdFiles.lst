@@ -1,0 +1,15 @@
+br/com/kamyla/netflix/NetflixDescriptionLength.class
+br/com/kamyla/netflix/util/TextNormalizer.class
+br/com/kamyla/netflix/TestNormalization.class
+br/com/kamyla/netflix/NetflixTopBottom.class
+br/com/kamyla/netflix/preprocessing/CsvNormalizer.class
+br/com/kamyla/netflix/util/TextProcessor.class
+br/com/kamyla/netflix/util/StopWords.class
+br/com/kamyla/netflix/NetflixWordCount.class
+br/com/kamyla/netflix/mapper/WordCountMapper.class
+br/com/kamyla/netflix/reducer/WordCountReducer.class
+br/com/kamyla/netflix/mapper/DescriptionLengthMapper.class
+br/com/kamyla/netflix/reducer/DescriptionLengthReducer.class
+br/com/kamyla/netflix/reducer/TopBottomReducer.class
+br/com/kamyla/netflix/mapper/TopBottomMapper.class
+br/com/kamyla/netflix/reducer/TopBottomReducer$WordFrequency.class
