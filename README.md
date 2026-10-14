@@ -142,16 +142,11 @@ A partir desses valores são identificados:
 
 O total considerado nas análises é **128.959 palavras**, contadas após a normalização, a remoção das stopwords e o descarte dos tokens com menos de duas letras, conforme pedido no enunciado.
 
-Para referência, seguem também os valores das etapas anteriores:
-
 | Métrica | Quantidade |
 |---|---:|
-| Tokens após a normalização (antes da remoção de stopwords e filtros) | 213.302 |
 | **Total após remoção de stopwords e aplicação dos filtros** | **128.959** |
 | Palavras distintas consideradas | 19.270 |
 | Palavras distintas com frequência igual a 1 | 9.192 |
-
-O valor de 213.302 corresponde aos tokens gerados depois da conversão para minúsculas e da troca de pontuação por espaço. Por isso ele é um pouco maior que a simples separação do texto original por espaços (210.331), já que termos como `B-17` passam a ser dois tokens.
 
 ### 5 palavras mais repetidas
 
