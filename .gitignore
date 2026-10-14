@@ -1,0 +1,3 @@
+target/*
+!target/netflix-mapreduce-1.0-SNAPSHOT.jar
+.idea/workspace.xml

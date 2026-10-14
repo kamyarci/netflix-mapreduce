@@ -140,9 +140,18 @@ A partir desses valores são identificados:
 
 ### Número total de palavras
 
-```text
-128959
-```
+O total considerado nas análises é **128.959 palavras**, contadas após a normalização, a remoção das stopwords e o descarte dos tokens com menos de duas letras, conforme pedido no enunciado.
+
+Para referência, seguem também os valores das etapas anteriores:
+
+| Métrica | Quantidade |
+|---|---:|
+| Tokens após a normalização (antes da remoção de stopwords e filtros) | 213.302 |
+| **Total após remoção de stopwords e aplicação dos filtros** | **128.959** |
+| Palavras distintas consideradas | 19.270 |
+| Palavras distintas com frequência igual a 1 | 9.192 |
+
+O valor de 213.302 corresponde aos tokens gerados depois da conversão para minúsculas e da troca de pontuação por espaço. Por isso ele é um pouco maior que a simples separação do texto original por espaços (210.331), já que termos como `B-17` passam a ser dois tokens.
 
 ### 5 palavras mais repetidas
 
@@ -181,6 +190,40 @@ WHAT DID JACK DO?
 ```
 
 As quantidades das descrições consideram apenas as palavras válidas após a aplicação das regras de normalização e remoção de stopwords.
+
+## Ambiente de execução (Hadoop no WSL2)
+
+O Hadoop foi instalado e configurado manualmente no próprio computador, sem uso de cluster pronto, imagem Docker ou serviço em nuvem. O ambiente roda no **WSL2**, que executa um kernel Linux real sobre o Windows.
+
+| Item | Versão / valor |
+|---|---|
+| Sistema | Ubuntu 24.04 LTS (WSL2) |
+| Hadoop | 3.5.0 (`hadoop-3.5.0.tar.gz`, extraído em `~/hadoop`) |
+| Java do Hadoop | OpenJDK 17 (`JAVA_HOME` em `hadoop-env.sh`) |
+| Modo | Pseudo-distribuído (um nó) |
+
+### Configuração
+
+| Arquivo | Propriedade | Valor |
+|---|---|---|
+| `core-site.xml` | `fs.defaultFS` | `hdfs://localhost:9000` |
+| `hdfs-site.xml` | `dfs.replication` | `1` |
+| `hdfs-site.xml` | `dfs.namenode.name.dir` | `~/hadoop_data/hdfs/namenode` |
+| `hdfs-site.xml` | `dfs.datanode.data.dir` | `~/hadoop_data/hdfs/datanode` |
+| `mapred-site.xml` | `mapreduce.framework.name` | `yarn` |
+| `yarn-site.xml` | `yarn.nodemanager.aux-services` | `mapreduce_shuffle` |
+
+As variáveis `HADOOP_HOME`, `HADOOP_CONF_DIR` e o `PATH` com `bin` e `sbin` do Hadoop estão definidas no `~/.bashrc`.
+
+### Inicialização dos serviços
+
+```bash
+start-dfs.sh
+start-yarn.sh
+jps
+```
+
+O `jps` deve listar `NameNode`, `DataNode`, `SecondaryNameNode`, `ResourceManager` e `NodeManager`. As interfaces web ficam em `http://localhost:9870` (HDFS) e `http://localhost:8088` (YARN).
 
 ## Compilação
 
