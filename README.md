@@ -338,6 +338,23 @@ Para visualizar os resultados referentes ao tamanho das descrições:
 hdfs dfs -cat /user/kamylaarci/netflix/output/description-length/part-r-00000
 ```
 
+```text
+MAIS_LONGA: Opium and the Kung Fu Master	29
+MAIS_CURTA: WHAT DID JACK DO?	5
+```
+
+### Reexecução dos Jobs (opcional)
+
+O Hadoop não grava a saída de um Job em um diretório que já existe. Para executar os Jobs novamente, apague antes as saídas anteriores:
+
+> **Atenção:** estes comandos apagam definitivamente os resultados das execuções anteriores no HDFS.
+
+```bash
+hdfs dfs -rm -r -f /user/kamylaarci/netflix/output/wordcount
+hdfs dfs -rm -r -f /user/kamylaarci/netflix/output/top-bottom
+hdfs dfs -rm -r -f /user/kamylaarci/netflix/output/description-length
+```
+
 ## Resultados da execução final
 
 Na execução final, o Hadoop processou os **8.807 registros** do dataset sem registros inválidos nas análises.
@@ -350,6 +367,51 @@ TOTAL_WORDS=128959
 
 Esse valor coincide com a linha `TOTAL_PALAVRAS` gravada na saída do Job Top 5.
 
-O uso do Combiner reduziu os `128959` registros emitidos pelo Mapper para `19270` registros enviados para a etapa de Reduce.
+O uso do Combiner reduziu os registros intermediários enviados para a etapa de Reduce, conforme os contadores registrados pelo Hadoop:
+
+```text
+Map output records=128959
+Combine input records=128959
+Combine output records=19270
+Reduce input records=19270
+```
+
+Como o dataset foi processado por uma única tarefa Map, o Combiner agrupou todas as ocorrências de cada palavra, e o Reducer recebeu exatamente um registro por palavra distinta (19.270). Com mais tarefas Map, esse número poderia ser maior, pois cada tarefa combina apenas os seus próprios dados.
 
 O Job responsável pelo tamanho das descrições recebeu os `8807` títulos e produziu os dois resultados finais correspondentes à maior e à menor descrição.
+
+## Evidências de execução
+
+Capturas de tela da execução no ambiente local (Hadoop no WSL2):
+
+### Serviços em execução (`jps`)
+
+![Serviços do Hadoop listados pelo jps](docs/prints/01-jps.png)
+
+### Cluster YARN (versão do Hadoop)
+
+![Página About the Cluster do YARN com a versão 3.5.0 do Hadoop](docs/prints/08-yarn-cluster.png)
+
+### Jobs concluídos no YARN
+
+![Painel do YARN com os três Jobs concluídos](docs/prints/02-yarn-jobs.png)
+
+### Contadores dos Jobs
+
+Word Count, com os contadores do Combiner e o `TOTAL_WORDS`:
+
+![Contadores do Job Word Count](docs/prints/05-wordcount-job.png)
+
+Top 5 palavras:
+
+![Contadores do Job Top 5](docs/prints/06-topbottom-job.png)
+
+Tamanho das descrições:
+
+![Contadores do Job de tamanho das descrições](docs/prints/07-description-length-job.png)
+
+### Saídas no HDFS
+
+![Resultado do Job Top 5 no HDFS](docs/prints/03-hdfs-top-bottom.png)
+
+![Resultado do Job de tamanho das descrições no HDFS](docs/prints/04-hdfs-description-length.png)
