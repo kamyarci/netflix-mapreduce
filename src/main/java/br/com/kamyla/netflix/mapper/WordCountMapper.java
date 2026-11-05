@@ -36,7 +36,11 @@ public class WordCountMapper
                     .getRecords()
                     .get(0);
 
-            if (record.size() <= 11) {
+            if (record.size() != 12) {
+                context.getCounter(
+                        "NETFLIX",
+                        "INVALID_COLUMN_COUNT"
+                ).increment(1);
                 return;
             }
 

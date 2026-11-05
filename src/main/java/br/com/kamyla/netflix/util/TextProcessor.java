@@ -1,3 +1,4 @@
+
 package br.com.kamyla.netflix.util;
 
 import java.util.Arrays;
@@ -17,17 +18,8 @@ public final class TextProcessor {
         }
 
         return Arrays.stream(normalized.split("\\s+"))
-                .filter(TextProcessor::hasAtLeastTwoLetters)
+                .filter(word -> word.matches("\\p{L}+"))
                 .filter(word -> !StopWords.contains(word))
                 .toList();
-    }
-
-    private static boolean hasAtLeastTwoLetters(String word) {
-
-        long letterCount = word.codePoints()
-                .filter(Character::isLetter)
-                .count();
-
-        return letterCount >= 2;
     }
 }
