@@ -1,0 +1,219 @@
+International Movies    	2752
+Dramas  			2427
+Comedies        		1674
+International TV Shows  	1351
+Documentaries   		869
+Action & Adventure      	859
+TV Dramas       		763
+Independent Movies      	756
+Children & Family Movies        641
+Romantic Movies 		616
+TV Comedies     		581
+Thrillers       		577
+Crime TV Shows  		470
+Kids' TV        		451
+Docuseries      		395
+Music & Musicals        	375
+Romantic TV Shows       	370
+Horror Movies   		357
+Stand-Up Comedy 		343
+Reality TV      		255
+
+----------------------------------------------------
+Movie   			6131
+TV Show 			2676
+----------------------------------------------------
+===== TOP 20 ATORES - United States =====
+United States|Samuel L. Jackson 22
+United States|Tara Strong       22
+United States|Fred Tatasciore   21
+United States|Adam Sandler      20
+United States|James Franco      19
+United States|Nicolas Cage      19
+United States|Morgan Freeman    18
+United States|Seth Rogen        18
+United States|Molly Shannon     17
+United States|Erin Fitzgerald   16
+United States|Fred Armisen      16
+United States|Alfred Molina     15
+United States|Bruce Willis      15
+United States|Kate Higgins      15
+United States|Sean Astin        15
+United States|Antonio Banderas  14
+United States|Chris Rock        14
+United States|Danny Trejo       14
+United States|Debi Derryberry   14
+United States|Grey Griffin      14
+
+===== TOP 20 ATORES - Brazil =====
+Brazil|Jonathan Haagensen       4
+Brazil|Alice Braga      3
+Brazil|Caroline Abras   3
+Brazil|Dalton Vigh      3
+Brazil|Eduardo Galvão   3
+Brazil|Evelyn Castro    3
+Brazil|Fernanda Paes Leme       3
+Brazil|Julia Konrad     3
+Brazil|Karina Ramil     3
+Brazil|Lee Taylor       3
+Brazil|Leonardo Medeiros        3
+Brazil|Luccas Neto      3
+Brazil|Rafael Portugal  3
+Brazil|Rafinha Bastos   3
+Brazil|Seu Jorge        3
+Brazil|Thati Lopes      3
+Brazil|Wallie Ruy       3
+Brazil|Adriano Garib    2
+Brazil|Alessandra Negrini       2
+Brazil|Anitta   2
+
+===== TOP 20 ATORES - United Kingdom =====
+United Kingdom|David Attenborough       17
+United Kingdom|John Cleese      16
+United Kingdom|Michael Palin    14
+United Kingdom|Eric Idle        12
+United Kingdom|Terry Jones      12
+United Kingdom|Graham Chapman   11
+United Kingdom|Terry Gilliam    11
+United Kingdom|Helena Bonham Carter     9
+United Kingdom|Judi Dench       9
+United Kingdom|Samuel West      9
+United Kingdom|Brendan Gleeson  8
+United Kingdom|Eddie Marsan     8
+United Kingdom|Jim Broadbent    8
+United Kingdom|Natalie Dormer   8
+United Kingdom|Ricky Gervais    8
+United Kingdom|Ben Whishaw      7
+United Kingdom|James Cosmo      7
+United Kingdom|Jason Flemyng    7
+United Kingdom|Johnny Depp      7
+United Kingdom|Olivia Colman    7
+
+===== TOP 20 ATORES - Australia =====
+Australia|Magda Szubanski       5
+Australia|Ryan Corr     5
+Australia|Sam Neill     5
+Australia|Alex Dimitriades      4
+Australia|Deborah Mailman       4
+Australia|Emily Morris  4
+Australia|Geoffrey Rush 4
+Australia|Guy Pearce    4
+Australia|Richard Roxburgh      4
+Australia|Aaron Jeffery 3
+Australia|Adam Tuominen 3
+Australia|Ashleigh Ball 3
+Australia|Ben Mendelsohn        3
+Australia|Bruce Spence  3
+Australia|Danielle Cormack      3
+Australia|Elysia Markou 3
+Australia|Faith Seci    3
+Australia|Flynn Curry   3
+Australia|Frances O'Connor      3
+Australia|Gina Riley    3
+
+----------------------------------------------------
+===== TOP 20: United States - Dramas =====
+United States|Dramas|James Franco       11
+United States|Dramas|Kristen Stewart    11
+United States|Dramas|Amy Adams  10
+United States|Dramas|Robert Pattinson   10
+United States|Dramas|Robert De Niro     9
+United States|Dramas|Samuel L. Jackson  9
+United States|Dramas|Alfred Molina      8
+United States|Dramas|David Oyelowo      8
+United States|Dramas|Harvey Keitel      8
+United States|Dramas|Jacki Weaver       8
+United States|Dramas|Michael Shannon    8
+United States|Dramas|Naomi Watts        8
+United States|Dramas|Viola Davis        8
+United States|Dramas|Willem Dafoe       8
+United States|Dramas|Amanda Seyfried    7
+United States|Dramas|Burt Young 7
+United States|Dramas|Dermot Mulroney    7
+United States|Dramas|Jake Gyllenhaal    7
+United States|Dramas|Jennifer Ehle      7
+United States|Dramas|John Carroll Lynch 7
+
+===== TOP 20: Australia - Dramas =====
+Australia|Dramas|Sam Neill      4
+Australia|Dramas|Emily Morris   3
+Australia|Dramas|Geoffrey Rush  3
+Australia|Dramas|Kerry Fox      3
+Australia|Dramas|Miranda Otto   3
+Australia|Dramas|Ryan Corr      3
+Australia|Dramas|Adam Tuominen  2
+Australia|Dramas|Ben Mendelsohn 2
+Australia|Dramas|Colin Firth    2
+Australia|Dramas|Elysia Markou  2
+Australia|Dramas|Guy Pearce     2
+Australia|Dramas|Jacek Koman    2
+Australia|Dramas|Kelli Berglund 2
+Australia|Dramas|Naomi Watts    2
+Australia|Dramas|Paul Schneider 2
+Australia|Dramas|Richard Roxburgh       2
+Australia|Dramas|Rooney Mara    2
+Australia|Dramas|Aachal Munjal  1
+Australia|Dramas|Aaron Glenane  1
+Australia|Dramas|Aaron Jeffery  1
+
+----------------------------------------------------
+
+===== TOP 20 DIRETORES: United States - Dramas =====
+United States|Dramas|Martin Scorsese    9
+United States|Dramas|Clint Eastwood     6
+United States|Dramas|Lasse Hallström    6
+United States|Dramas|Steven Spielberg   6
+United States|Dramas|Noah Baumbach      5
+United States|Dramas|Antonio Campos     4
+United States|Dramas|David Fincher      4
+United States|Dramas|John G. Avildsen   4
+United States|Dramas|Oliver Stone       4
+United States|Dramas|Paul Thomas Anderson       4
+United States|Dramas|Spike Lee  4
+United States|Dramas|Antoine Fuqua      3
+United States|Dramas|Brett Haley        3
+United States|Dramas|Chris Weitz        3
+United States|Dramas|Craig Brewer       3
+United States|Dramas|Drake Doremus      3
+United States|Dramas|Gregory Hoblit     3
+United States|Dramas|John Lee Hancock   3
+United States|Dramas|Lynn Shelton       3
+United States|Dramas|Mark Raso  3
+
+===== TOP 20 DIRETORES: Australia - Dramas =====
+Australia|Dramas|Clay Glen      3
+Australia|Dramas|Jane Campion   2
+Australia|Dramas|Ana Kokkinos   1
+Australia|Dramas|Anne Fontaine  1
+Australia|Dramas|Baljit Singh Deo       1
+Australia|Dramas|Ben C. Lucas   1
+Australia|Dramas|Clint Eastwood 1
+Australia|Dramas|David Michôd   1
+Australia|Dramas|Garth Davis    1
+Australia|Dramas|George C. Wolfe        1
+Australia|Dramas|Gillian Armstrong      1
+Australia|Dramas|Glendyn Ivin   1
+Australia|Dramas|Jeffrey Walker 1
+Australia|Dramas|John Dahl      1
+Australia|Dramas|John Duigan    1
+Australia|Dramas|John Lee Hancock       1
+Australia|Dramas|Jonathan Teplitzky     1
+Australia|Dramas|Julius Avery   1
+Australia|Dramas|Michael Petroni        1
+Australia|Dramas|Neil Armfield  1
+
+----------------------------------------------------
+
+FILME   quantidade=6128 | media=99.58 | mediana=98.00 | moda=[90] | frequencia_moda=152 | minimo=3 | maximo=312 | unidade=minutos
+SERIE   quantidade=2676 | media=1.76 | mediana=1.00 | moda=[1] | frequencia_moda=1793 | minimo=1 | maximo=17 | unidade=temporadas
+
+----------------------------------------------------
+United States|Dramas|Amanda Seyfried    7
+United States|Dramas|Julianne Moore     6
+United States|Dramas|Mark Ruffalo       2
+
+----------------------------------------------------
+United States|Dramas|Lasse Hallström    6
+
+----------------------------------------------------
+DRAMA_AMERICANO quantidade=835 | media=107.37 | mediana=105.00 | moda=[97] | frequencia_moda=34 | minimo=8 | maximo=312 | unidade=temporadas
